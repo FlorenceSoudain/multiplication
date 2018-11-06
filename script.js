@@ -20,7 +20,9 @@ document.getElementById('envoyer').addEventListener('click', function () {
         document.getElementById('message').style.fontSize = "75px";
     }
     else {
-        document.getElementById('message').innerHTML = "Ce n'est pas la bonne réponse."
+        document.getElementById('message').innerHTML = "Ce n'est pas la bonne réponse.";
+        document.getElementById('message').style.fontFamily = "";
+        document.getElementById('message').style.fontSize = "30px";
     }
 
 });
